@@ -39,7 +39,7 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 Please see [our corresponding tutorial](https://jsonforms.io/docs/tutorial) on how to add custom renderers.
 
-
+---
 ### Links and References:
 
 - [JSON Forms](https://jsonforms.io): Official website of JSON Forms library.
@@ -47,7 +47,8 @@ Please see [our corresponding tutorial](https://jsonforms.io/docs/tutorial) on h
 - [Material-UI](https://mui.com): Official website of Material-UI library.
 - [JSON Schema](https://json-schema.org): Official website of JSON Schema standard.
 - [Tutorial on Adding Custom Renderers](https://jsonforms.io/docs/tutorial-custom-renderers): Link to the corresponding tutorial on JSON Forms website.
-- 
+
+---
 
  ### Troubleshooting:
 
