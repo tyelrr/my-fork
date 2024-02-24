@@ -35,6 +35,43 @@ The [corresponding UI schema](src/uischema.json) specifies controls for each pro
 
 JSON Forms is rendered by importing and using the `JsonForms` component and directly handing over the `schema`, `uischema`, `data`, `renderer` and `cell` props. We listen to changes in the form via the `onChange` callback.
 
+### Using JSON Forms
+
+JSON Forms is rendered by importing and using the `JsonForms` component and directly handing over the `schema`, `uischema`, `data`, `renderer`, and `cell` props. Changes in the form are listened to via the `onChange` callback.
+
+#### Example:
+
+```jsx
+import React, { useState } from 'react';
+import { JsonForms } from '@jsonforms/react';
+import { materialRenderers, materialCells } from '@jsonforms/material-renderers';
+import { mySchema, myUISchema } from './formSchema'; // Import your JSON schema and UI schema
+
+const MyFormComponent = () => {
+  const [formData, setFormData] = useState({}); // State to hold form data
+
+  const handleChange = ({ data }) => {
+    setFormData(data); // Update form data on change
+  };
+
+  return (
+    <div>
+      <h2>My JSON Form</h2>
+      <JsonForms
+        schema={mySchema}
+        uischema={myUISchema}
+        data={formData}
+        renderers={materialRenderers}
+        cells={materialCells}
+        onChange={handleChange}
+      />
+    </div>
+  );
+};
+
+export default MyFormComponent;
+```
+
 ## Custom renderers
 
 Custom renderers allow you to define custom components for rendering form controls in JSON-forms React projects. This feature enables you to create specialized or visually customized form elements tailored to your specific needs.
