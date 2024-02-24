@@ -37,8 +37,6 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 ## Custom renderers
 
-### Custom Renderers:
-
 Custom renderers allow you to define custom components for rendering form controls in JSON-forms React projects. This feature enables you to create specialized or visually customized form elements tailored to your specific needs.
 
 #### Overview:
