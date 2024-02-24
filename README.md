@@ -75,7 +75,7 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 **Solution:** Verify the correctness of the schema, UI schema, and data, and make necessary corrections.
 
----
+
 
 #### Custom Renderer Not Working:
 
@@ -87,7 +87,6 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 **Solution:** Review the custom renderer code, ensure it conforms to the expected interface, and debug any issues with rendering logic.
 
----
 
 #### Form Data Not Updating:
 
