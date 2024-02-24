@@ -15,12 +15,15 @@ JSON Forms is a powerful library for building dynamic forms in React application
 
 ## File Structure
 
-Let's briefly have a look at the most important files:
+The project's file structure is organized as follows:
 
-- `src/schema.json` contains the JSON schema (also referred to as 'data schema')
-- `src/uischema.json` contains the UI schema
-- `src/index.tsx` is the entry point of the application. We also customize the Material UI theme to give each control more space.
-- `src/App.tsx` is the main app component and makes use of the `JsonForms` component in order to render a form.
+- `src/schema.json`: Contains the JSON schema (data schema) for defining the structure of a task entity.
+- `src/uischema.json`: Contains the UI schema for specifying the layout and controls for rendering the task form.
+- `src/index.tsx`: The entry point of the application where the Material UI theme customization is applied to give each control more space.
+- `src/App.tsx`: The main app component that utilizes the `JsonForms` component to render the form.
+- `src/Rating.tsx`: A custom React component for rendering a rating control in the form.
+- `src/RatingControl.tsx`: Integrates the custom rating control with JSON Forms.
+- `src/RatingControlTester.ts`: Defines a control tester to determine the rank of the rating control.
 
 The [data schema](src/schema.json) defines the structure of a Task: it contains attributes such as title, description, due date and so on.
 
