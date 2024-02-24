@@ -99,7 +99,7 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 
 
-## Testing
+# Testing
 
 #### Overview
 The testing suite for this project ensures the reliability, functionality, and user experience of the application. It includes integration tests for key features and components, ensuring they behave as expected under various scenarios.
