@@ -37,6 +37,44 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 ## Custom renderers
 
+### Custom Renderers:
+
+Custom renderers allow you to define custom components for rendering form controls in JSON-forms React projects. This feature enables you to create specialized or visually customized form elements tailored to your specific needs.
+
+#### Overview:
+
+- **What are Custom Renderers?**: Custom renderers are React components that replace the default rendering behavior of form controls provided by JSON-forms.
+- **Why Use Custom Renderers?**: Custom renderers provide flexibility and customization options beyond the default form controls, allowing you to create unique user interfaces and interactions.
+
+#### Implementation:
+
+To implement a custom renderer in your JSON-forms React project, follow these steps:
+
+1. **Create the Custom Renderer Component**: Define a React component that represents the custom form control.
+
+2. **Register the Custom Renderer**: Register the custom renderer component with the JSON-forms library, specifying the mapping between JSON schema types and the custom renderer component.
+
+3. **Use the Custom Renderer**: In your JSON schema, specify the custom renderer component to use for rendering specific form controls by setting the `$ref` property to the custom renderer component's identifier.
+
+#### Example:
+
+Here's an example of how to create and use a custom renderer component for rendering a checkbox:
+
+```jsx
+// CustomCheckboxRenderer.jsx
+import React from 'react';
+
+const CustomCheckboxRenderer = ({ value, onChange }) => {
+  return (
+    <label>
+      <input type="checkbox" checked={value} onChange={(e) => onChange(e.target.checked)} />
+      Custom Checkbox
+    </label>
+  );
+};
+
+export default CustomCheckboxRenderer;
+
 Please see [our corresponding tutorial](https://jsonforms.io/docs/tutorial) on how to add custom renderers.
 
 ---
