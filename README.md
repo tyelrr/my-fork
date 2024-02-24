@@ -63,7 +63,7 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 ---
 
-### **Troubleshooting:**
+## **Troubleshooting:
 
 #### Form Not Rendering:
 
