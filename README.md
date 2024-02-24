@@ -14,6 +14,20 @@ Browse to http://localhost:3000 to see the application in action.
 JSON Forms is a powerful library for building dynamic forms in React applications. This seed project provides a starting point for integrating JSON Forms into your React projects.
 The project demonstrates how JSON Forms can be integrated with React to create dynamic forms quickly, simplifying form creation, enhancing user experience, enabling flexible data handling, and promoting customization. It also showcases scalability and maintenance through its modular architecture. JSON Forms can be applied to various domains, making it an educational resource and open-source project for community collaboration.
 
+# Prerequisites and Knowledge Required:
+
+Before diving into the project code, users should have a basic understanding of the following:
+
+- **React:** Familiarity with React and its concepts such as components, props, and state is essential as this project is built using React.
+
+- **JavaScript/TypeScript:** Proficiency in JavaScript/TypeScript is necessary as the project code is written primarily in these languages.
+
+- **JSON Schema:** Understanding of JSON schema and its usage in defining the structure of data entities is helpful for working with the project's schema.json file.
+
+- **UI Design:** Some knowledge of UI design principles and best practices can aid in understanding the UI schema (uischema.json) and custom components' layout and functionality.
+
+- **JSON Forms:** Although not required, familiarity with JSON Forms library and its usage in React applications can facilitate understanding and customization of the form rendering process.
+
 
 ## Usage Guide
 
