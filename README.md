@@ -9,6 +9,10 @@ It is based on `create-react-app` and only contains minor modifications.
 
 Browse to http://localhost:3000 to see the application in action.
 
+ ## Overview
+
+JSON Forms is a powerful library for building dynamic forms in React applications. This seed project provides a starting point for integrating JSON Forms into your React projects.
+
 ## File Structure
 
 Let's briefly have a look at the most important files:
