@@ -14,6 +14,61 @@ Browse to http://localhost:3000 to see the application in action.
 JSON Forms is a powerful library for building dynamic forms in React applications. This seed project provides a starting point for integrating JSON Forms into your React projects.
 The project demonstrates how JSON Forms can be integrated with React to create dynamic forms quickly, simplifying form creation, enhancing user experience, enabling flexible data handling, and promoting customization. It also showcases scalability and maintenance through its modular architecture. JSON Forms can be applied to various domains, making it an educational resource and open-source project for community collaboration.
 
+
+## Usage Guide
+
+The repository offers a versatile solution for integrating JSON Forms into your React projects. Below are instructions on how to utilize the repository effectively, along with examples of common usage scenarios.
+
+To start using JSON Forms in your React project, follow these steps:
+
+1. **Install Dependencies**: Ensure you have Node.js and npm installed. Then, navigate to your project directory and run:
+
+    ```bash
+    npm install @jsonforms/react @jsonforms/material-renderers
+    ```
+
+2. **Import Components**: In your React component file where you want to use JSON Forms, import the necessary components:
+
+    ```jsx
+    import { JsonForms } from '@jsonforms/react';
+    import { materialRenderers, materialCells } from '@jsonforms/material-renderers';
+    ```
+
+### Basic Usage
+
+Once you've installed the dependencies and imported the components, you can use JSON Forms in your React component as follows:
+
+```jsx
+import React, { useState } from 'react';
+import { JsonForms } from '@jsonforms/react';
+import { materialRenderers, materialCells } from '@jsonforms/material-renderers';
+
+const MyFormComponent = () => {
+  const [formData, setFormData] = useState({});
+
+  const handleChange = ({ data }) => {
+    setFormData(data);
+  };
+
+  return (
+    <div>
+      <h2>My JSON Form</h2>
+      <JsonForms
+        schema={mySchema}
+        uischema={myUISchema}
+        data={formData}
+        renderers={materialRenderers}
+        cells={materialCells}
+        onChange={handleChange}
+      />
+    </div>
+  );
+};
+
+export default MyFormComponent;
+```
+
+
 ## File Structure
 
 The project's file structure is organized as follows:
