@@ -69,7 +69,7 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 
 **Issue:** The form does not render or appears blank.
 
-**Troubleshooting Tips:**
+##Troubleshooting Tips:
 - Check if the JSON schema (`schema.json`) and UI schema (`uischema.json`) are properly configured and accessible.
 - Ensure that the form data is provided to the `JsonForms` component and is valid according to the schema.
 
