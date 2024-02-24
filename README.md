@@ -35,7 +35,7 @@ The [corresponding UI schema](src/uischema.json) specifies controls for each pro
 
 JSON Forms is rendered by importing and using the `JsonForms` component and directly handing over the `schema`, `uischema`, `data`, `renderer` and `cell` props. We listen to changes in the form via the `onChange` callback.
 
-### Using JSON Forms
+# Using JSON Forms
 
 JSON Forms is rendered by importing and using the `JsonForms` component and directly handing over the `schema`, `uischema`, `data`, `renderer`, and `cell` props. Changes in the form are listened to via the `onChange` callback.
 
