@@ -30,9 +30,6 @@ The [data schema](src/schema.json) defines the structure of a Task: it contains 
 
 The [corresponding UI schema](src/uischema.json) specifies controls for each property and puts them into a vertical layout that in turn contains two horizontal layouts.
 
- ## Overview
-
-JSON Forms is a powerful library for building dynamic forms in React applications. This seed project provides a starting point for integrating JSON Forms into your React projects.
 
 ## Rendering JSON Forms
 
@@ -41,3 +38,10 @@ JSON Forms is rendered by importing and using the `JsonForms` component and dire
 ## Custom renderers
 
 Please see [our corresponding tutorial](https://jsonforms.io/docs/tutorial) on how to add custom renderers.
+
+Links and References:
+JSON Forms: Official website of JSON Forms library.
+React: Official website of React library.
+Material-UI: Official website of Material-UI library.
+JSON Schema: Official website of JSON Schema standard.
+Tutorial on Adding Custom Renderers: Link to the corresponding tutorial on JSON Forms website.
