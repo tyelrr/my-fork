@@ -147,9 +147,32 @@ To implement a custom renderer in your JSON-forms React project, follow these st
 3. **Use the Custom Renderer**: In your JSON schema, specify the custom renderer component to use for rendering specific form controls by setting the `$ref` property to the custom renderer component's identifier.
 
 
-## Rendering JSON Forms
+ 
+### Configuration Options:
 
-JSON Forms is rendered by importing and using the `JsonForms` component and directly handing over the `schema`, `uischema`, `data`, `renderer` and `cell` props. We listen to changes in the form via the `onChange` callback.
+- **Validation Rules:** Define custom validation rules for form fields to ensure data integrity and accuracy.
+  - Example: `<JSONField name="name" label="Name" validationRules={{ required: true }} />`
+
+- **Styling Options:** Customize the appearance of form elements by applying inline styles or CSS classes.
+  - Example: `<JSONForm style={{ backgroundColor: '#f0f0f0', padding: '20px' }}>`
+
+- **Layout Configuration:** Organize form fields in different arrangements or layouts to enhance user experience.
+  - Example: `<JSONForm style={{ display: 'flex', flexDirection: 'column' }}>`
+
+- **Advanced Options:** Explore advanced options for integrating with external libraries or APIs to extend functionality.
+  - Example: Integration with Yup validation library:
+    ```jsx
+    import * as Yup from 'yup';
+
+    const validationSchema = Yup.object().shape({
+      name: Yup.string().required('Name is required'),
+      email: Yup.string().email('Invalid email').required('Email is required'),
+    });
+
+    <JSONForm validationSchema={validationSchema}>
+      {/* Form fields */}
+    </JSONForm>
+    ```
 
 
 
