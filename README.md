@@ -148,7 +148,7 @@ To implement a custom renderer in your JSON-forms React project, follow these st
 
 
  
-### Configuration Options:
+# Configuration Options:
 
 - **Validation Rules:** Define custom validation rules for form fields to ensure data integrity and accuracy.
   - Example: `<JSONField name="name" label="Name" validationRules={{ required: true }} />`
