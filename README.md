@@ -61,7 +61,7 @@ To implement a custom renderer in your JSON-forms React project, follow these st
 
 JSON Forms is rendered by importing and using the `JsonForms` component and directly handing over the `schema`, `uischema`, `data`, `renderer` and `cell` props. We listen to changes in the form via the `onChange` callback.
 
----
+
 
 
 ## Testing
