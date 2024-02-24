@@ -60,3 +60,42 @@ To implement a custom renderer in your JSON-forms React project, follow these st
 ## Rendering JSON Forms
 
 JSON Forms is rendered by importing and using the `JsonForms` component and directly handing over the `schema`, `uischema`, `data`, `renderer` and `cell` props. We listen to changes in the form via the `onChange` callback.
+
+---
+
+### **Troubleshooting:**
+
+#### Form Not Rendering:
+
+**Issue:** The form does not render or appears blank.
+
+**Troubleshooting Tips:**
+- Check if the JSON schema (`schema.json`) and UI schema (`uischema.json`) are properly configured and accessible.
+- Ensure that the form data is provided to the `JsonForms` component and is valid according to the schema.
+
+**Solution:** Verify the correctness of the schema, UI schema, and data, and make necessary corrections.
+
+---
+
+#### Custom Renderer Not Working:
+
+**Issue:** Custom renderers for form controls are not rendering as expected.
+
+**Troubleshooting Tips:**
+- Verify that the custom renderer components are properly implemented and registered with the `JsonForms` component.
+- Check for any errors or warnings in the console that may indicate issues with the custom renderer implementation.
+
+**Solution:** Review the custom renderer code, ensure it conforms to the expected interface, and debug any issues with rendering logic.
+
+---
+
+#### Form Data Not Updating:
+
+**Issue:** Form data does not update when user inputs are changed.
+
+**Troubleshooting Tips:**
+- Confirm that the `onChange` callback function is properly set up and receiving updated form data.
+- Check for any errors in the form data structure or inconsistencies between the schema and UI schema.
+
+**Solution:** Debug the `onChange` event handling logic, ensure that updated form data is correctly propagated, and validate the data against the schema.
+
