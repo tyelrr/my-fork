@@ -46,7 +46,7 @@ Please see [our corresponding tutorial](https://jsonforms.io/docs/tutorial) on h
 - [JSON Schema](https://json-schema.org): Official website of JSON Schema standard.
 - [Tutorial on Adding Custom Renderers](https://jsonforms.io/docs/tutorial-custom-renderers): Link to the corresponding tutorial on JSON Forms website.
 
-- ### Troubleshooting:
+ ### Troubleshooting:
 
 #### Form Not Rendering:
 
