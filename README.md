@@ -120,3 +120,10 @@ Please see [our corresponding tutorial](https://jsonforms.io/docs/tutorial) on h
 
 **Solution:** Debug the `onChange` event handling logic, ensure that updated form data is correctly propagated, and validate the data against the schema.
 
+### Links and References:
+
+- [JSON Forms](https://jsonforms.io): Official website of JSON Forms library.
+- [React](https://reactjs.org): Official website of React library.
+- [Material-UI](https://mui.com): Official website of Material-UI library.
+- [JSON Schema](https://json-schema.org): Official website of JSON Schema standard.
+- [Tutorial on Adding Custom Renderers](https://jsonforms.io/docs/tutorial-custom-renderers): Link to the corresponding tutorial on JSON Forms website.
