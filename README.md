@@ -345,13 +345,20 @@ Thank you to the following contributors who have participated in this project:
 
 - [Edgar Müller](https://github.com/edgarmueller)
 
-- [TheZoker](#thezoker)
-- [sdirix](#sdirix)
-- [Alexandra Buzila](#alexandra-buzila)
-- [Lukas Boll](#lukas-boll)
-- [Abraham](#abraham)
-- [Koegel](#koegel)
-- [Eneufeld](#eneufeld)
+- [Florian Gareis](https://github.com/TheZoker)
+
+- [Stefan Dirix](https://github.com/sdirix)
+
+- [Alexandra Buzila](https://github.com/AlexandraBuzila)
+
+- [Lukas Boll](https://github.com/LukasBoll)
+
+- [Abraham Williams](https://github.com/abraham)
+
+- [Maximilian Koegel](https://github.com/koegel)
+
+- [Eugen Neufeld](https://github.com/eneufeld)
+
 
 ## Edgar Mueller
 
