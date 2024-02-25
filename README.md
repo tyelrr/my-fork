@@ -304,7 +304,7 @@ Support files in the `support` directory contain utility functions, setup code, 
 If you encounter any issues while running tests, refer to the troubleshooting section in the README.md or consult the Cypress documentation for guidance.
 
 
-## Troubleshooting:
+# Troubleshooting:
 
 #### Form Not Rendering:
 
