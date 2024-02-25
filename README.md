@@ -360,42 +360,42 @@ Thank you to the following contributors who have participated in this project:
 - [Eugen Neufeld](https://github.com/eneufeld)
 
 
-## Edgar Mueller
+### Edgar Mueller
 
 - **Number of Commits:** 35
 
 
-## TheZoker
+### TheZoker
 
 - **Number of Commits:** 12
 
 
-## sdirix
+### sdirix
 
 - **Number of Commits:** 6
 
 
-## Alexandra Buzila
+### Alexandra Buzila
 
 - **Number of Commits:** 6
 
 
-## Lukas Boll
+### Lukas Boll
 
 - **Number of Commits:** 4
 
 
-## Abraham
+### Abraham
 
 - **Number of Commits:** 1
 
 
-## Koegel
+### Koegel
 
 - **Number of Commits:** 1
 
 
-## Eneufeld
+### Eneufeld
 
 - **Number of Commits:** 1
 
