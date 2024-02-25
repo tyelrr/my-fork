@@ -339,3 +339,58 @@ If you encounter any issues while running tests, refer to the troubleshooting se
 
 **Solution:** Debug the `onChange` event handling logic, ensure that updated form data is correctly propagated, and validate the data against the schema.
 
+# Contributors
+
+Thank you to the following contributors who have participated in this project:
+
+- [Edgar Mueller](#edgar-mueller)
+- [TheZoker](#thezoker)
+- [sdirix](#sdirix)
+- [Alexandra Buzila](#alexandra-buzila)
+- [Lukas Boll](#lukas-boll)
+- [Abraham](#abraham)
+- [Koegel](#koegel)
+- [Eneufeld](#eneufeld)
+
+## Edgar Mueller
+
+- **Number of Commits:** 35
+
+
+## TheZoker
+
+- **Number of Commits:** 12
+
+
+## sdirix
+
+- **Number of Commits:** 6
+
+
+## Alexandra Buzila
+
+- **Number of Commits:** 6
+
+
+## Lukas Boll
+
+- **Number of Commits:** 4
+
+
+## Abraham
+
+- **Number of Commits:** 1
+
+
+## Koegel
+
+- **Number of Commits:** 1
+
+
+## Eneufeld
+
+- **Number of Commits:** 1
+
+
+
+
