@@ -350,6 +350,8 @@ If you encounter any issues while running tests, refer to the troubleshooting se
 - Learning Resource: Educational Resource
 - Open-Source Contribution: Community Collaboration
 
+# Project Summary
+Our project offers a useful and adaptable way to use JSON Forms to create dynamic forms in React applications. Through the simplification of form creation, improvement of user experience, flexible data handling, and encouragement of customisation and extensibility, our project enables developers to create top-notch applications in a range of subjects. It also promotes cooperation among developers by acting as an essential educational tool and encouraging open-source contribution.
 
 # Contributors
 
