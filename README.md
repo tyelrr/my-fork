@@ -204,7 +204,7 @@ const MyFormComponent = () => {
 export default MyFormComponent;
 ```
 
-## Custom renderers
+# Custom renderers
 
 Custom renderers allow you to define custom components for rendering form controls in JSON-forms React projects. This feature enables you to create specialized or visually customized form elements tailored to your specific needs.
 
