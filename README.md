@@ -251,7 +251,39 @@ To implement a custom renderer in your JSON-forms React project, follow these st
     </JSONForm>
     ```
 
+# Code Synopsis
 
+## `schema.json`
+
+- Defines how data should be organized and checked.
+- Includes details like task name, description, due date, completion status, rating, recurrence, and how often it repeats.
+
+## `uischema.json`
+
+- Plans out how the form looks and works.
+- Sets up where each piece of information should go and how it's shown.
+
+## React Components:
+
+### `App.js`
+
+- Starts the app and shows the form.
+- Lets you add and change tasks easily.
+
+### `Rating.js`
+
+- Shows stars you can click on to rate tasks.
+- Makes it simple to give tasks a score.
+
+### `RatingControl.js`
+
+- Helps connect the rating stars to the form.
+- Ensures the rating is saved when you fill out the form.
+
+### `index.js`
+
+- Sets up the app to look nice with colors and shapes.
+- Makes sure everything runs smoothly when you use the form.
 
 
 # Testing
