@@ -130,6 +130,39 @@ The [data schema](src/schema.json) defines the structure of a Task: it contains 
 
 The [corresponding UI schema](src/uischema.json) specifies controls for each property and puts them into a vertical layout that in turn contains two horizontal layouts.
 
+## Dependencies
+
+The project relies on several key dependencies to enable its functionality. Below is a list of the main dependencies along with their purpose within the project:
+
+### 1. React
+
+- **Description**: React is a JavaScript library for building user interfaces. It provides a declarative and efficient way to create UI components.
+- **Purpose in Project**: The project utilizes React for its frontend development, allowing for the creation of dynamic and interactive user interfaces.
+
+### 2. Material-UI (MUI)
+
+- **Description**: Material-UI is a popular React UI framework that implements Google's Material Design principles. It provides pre-designed React components for building stylish and responsive web applications.
+- **Purpose in Project**: Material-UI is used to style and structure the components of the project's user interface, ensuring a consistent and visually appealing design.
+
+### 3. JSONForms
+
+- **Description**: JSONForms is a library for dynamically rendering forms based on JSON schemas and UI schemas. It simplifies the process of creating complex forms by abstracting away the UI rendering logic.
+- **Purpose in Project**: JSONForms is a crucial dependency for rendering the project's forms dynamically based on the provided JSON schemas, reducing development time and complexity.
+
+### 4. Cypress
+
+- **Description**: Cypress is an end-to-end testing framework for web applications. It enables developers to write automated tests that simulate user interactions within the browser environment.
+- **Purpose in Project**: Cypress is used to automate the testing of the project's frontend functionality, ensuring that the application behaves as expected across different scenarios and environments.
+
+### 5. Other Dependencies
+
+- **@mui/material**: Material-UI core components and styles.
+- **@jsonforms/core**: Core functionality for JSONForms.
+- **@jsonforms/react**: React bindings for JSONForms.
+- **@jsonforms/material-renderers**: Material-UI renderers for JSONForms.
+- **@mui/styles**: Styles API for customizing Material-UI components.
+
+
 
 ## Rendering JSON Forms
 
