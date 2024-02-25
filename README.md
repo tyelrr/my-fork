@@ -343,7 +343,8 @@ If you encounter any issues while running tests, refer to the troubleshooting se
 
 Thank you to the following contributors who have participated in this project:
 
-- [Edgar Mueller](#edgar-mueller)
+- [Edgar Müller](https://github.com/edgarmueller)
+
 - [TheZoker](#thezoker)
 - [sdirix](#sdirix)
 - [Alexandra Buzila](#alexandra-buzila)
