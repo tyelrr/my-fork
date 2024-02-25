@@ -155,11 +155,11 @@ The project relies on several key dependencies to enable its functionality. Belo
 
 ### 5. Other Dependencies
 
-- **@mui/material**: Material-UI core components and styles.
-- **@jsonforms/core**: Core functionality for JSONForms.
-- **@jsonforms/react**: React bindings for JSONForms.
-- **@jsonforms/material-renderers**: Material-UI renderers for JSONForms.
-- **@mui/styles**: Styles API for customizing Material-UI components.
+- [@mui/material](https://www.npmjs.com/package/@mui/material): Material-UI core components and styles.
+- [@jsonforms/core](https://www.npmjs.com/package/@jsonforms/core): Core functionality for JSONForms.
+- [@jsonforms/react](https://www.npmjs.com/package/@jsonforms/react): React bindings for JSONForms.
+- [@jsonforms/material-renderers](https://www.npmjs.com/package/@jsonforms/material-renderers): Material-UI renderers for JSONForms.
+- [@mui/styles](https://www.npmjs.com/package/@mui/styles): Styles API for customizing Material-UI components.
 
 
 
