@@ -339,6 +339,18 @@ If you encounter any issues while running tests, refer to the troubleshooting se
 
 **Solution:** Debug the `onChange` event handling logic, ensure that updated form data is correctly propagated, and validate the data against the schema.
 
+# some other key features
+
+- Simplifying Form Creation: Rapid Prototyping
+- Enhancing User Experience: User-Friendly Forms
+- Flexible Data Handling
+- Customization and Extensibility: Custom Components
+- Scalability and Maintenance: Modular Architecture
+- Applicability to Various Domains: Cross-Domain Applications
+- Learning Resource: Educational Resource
+- Open-Source Contribution: Community Collaboration
+
+
 # Contributors
 
 Thank you to the following contributors who have participated in this project:
