@@ -125,9 +125,9 @@ The project's file structure is organized as follows:
 - `src/RatingControl.tsx`: Integrates the custom rating control with JSON Forms.
 - `src/RatingControlTester.ts`: Defines a control tester to determine the rank of the rating control.
 
-The [data schema](src/schema.json) defines the structure of a Task: it contains attributes such as title, description, due date and so on.
+The data schema defines the structure of a Task: it contains attributes such as title, description, due date and so on.
 
-The [corresponding UI schema](src/uischema.json) specifies controls for each property and puts them into a vertical layout that in turn contains two horizontal layouts.
+The corresponding UI schema specifies controls for each property and puts them into a vertical layout that in turn contains two horizontal layouts.
 
 ## Dependencies
 
